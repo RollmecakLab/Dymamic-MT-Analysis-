@@ -58,7 +58,6 @@ for (i=0;i<roiManager("count");i++){
 		setResult("Growth Rate um/min",startRow+j,GrowthRate); // growth rate in um/min
 		setResult("Growth Length um",startRow+j,growthlength*pixelsize); //put growth length in um
 		setResult("Growth Time min",startRow+j,growthtime*minutes_per_frame); //put growth time in s
-
 		//setResult("NumberOfRescues",startRow+j,numberOfRescues);  // count rescues
 		//setResult("NumberOfNewGrowthEvents",startRow+j,numberOfNewGrowthEvents); 
 	
